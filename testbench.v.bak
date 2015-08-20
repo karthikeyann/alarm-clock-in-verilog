@@ -1,0 +1,24 @@
+module testbench;
+  reg system_clk, reset;
+  reg  [8:0] alarmsec, alarmmin, alarmhr;
+  wire [7:0] seca, mina, hra,sec, min, hr; //a stands for asynchronous output
+  wire [6:0] disp;
+  wire sec_clk, tc_s, tc_m;
+  // load control to counter60, 24
+  // alarm function
+  initial
+  begin
+    system_clk=1'b1;
+    reset = 1'b1;
+    #1
+    reset = 1'b0;
+  end
+  always
+     #10000 system_clk = ~system_clk;
+  clockunit clockunit1( reset,  system_clk, sec_clk);
+  counter60 seconds(reset, sec_clk, seca, tc_s);
+  counter60 minutes(reset,tc_s, mina, tc_m);
+  counter24 hour(reset, tc_m, hra, tc_h);
+  memory timekeeper(reset,sec_clk, seca, mina, hra,sec, min, hr);
+  displaydecoder dis(reset, sec[3:0] ,disp);
+endmodule;

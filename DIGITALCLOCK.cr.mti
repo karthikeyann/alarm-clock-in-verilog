@@ -1,0 +1,64 @@
+{C:/Users/chaithu nidumolu/Desktop/vlsi term project/testbench.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/testbench.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/chaithu nidumolu/Desktop/vlsi term project/displaydecoder.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/displaydecoder.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module displaydecoder
+
+Top level modules:
+	displaydecoder
+
+} {} {}} {C:/Users/chaithu nidumolu/Desktop/vlsi term project/clockunit.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/clockunit.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module clockunit
+
+Top level modules:
+	clockunit
+
+} {} {}} {C:/Users/chaithu nidumolu/Desktop/vlsi term project/mux2b16.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/mux2b16.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module mux2b16
+
+Top level modules:
+	mux2b16
+
+} {} {}} {C:/Users/chaithu nidumolu/Desktop/vlsi term project/memory.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/memory.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {C:/Users/chaithu nidumolu/Desktop/vlsi term project/controlunit.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/controlunit.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module controlunit
+
+Top level modules:
+	controlunit
+
+} {} {}} {C:/Users/chaithu nidumolu/Desktop/vlsi term project/alarmunit.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/alarmunit.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module alarmunit
+
+Top level modules:
+	alarmunit
+
+} {} {}} {C:/Users/chaithu nidumolu/Desktop/vlsi term project/counter60.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/counter60.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module counter60
+
+Top level modules:
+	counter60
+
+} {} {}} {C:/Users/chaithu nidumolu/Desktop/vlsi term project/counter24.v} {1 {vlog -work work -nocovercells {C:/Users/chaithu nidumolu/Desktop/vlsi term project/counter24.v}
+Model Technology ModelSim PE Student Edition vlog 6.5d Compiler 2009.11 Nov 19 2009
+-- Compiling module counter24
+
+Top level modules:
+	counter24
+
+} {} {}}
